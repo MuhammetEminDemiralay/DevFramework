@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DevFramework.Core.DataAccess.NHibernate
 {
-    public class NHEntityRepositoryBase<TEntity> : IEnitityRepository<TEntity> 
+    public class NHEntityRepositoryBase<TEntity> : IEntityRepository<TEntity> 
         where TEntity : class, IEntity, new()
     {
         private NHibernateHelper _nHibernateHelper;

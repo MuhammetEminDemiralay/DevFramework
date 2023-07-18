@@ -11,6 +11,7 @@ namespace DevFramework.Northwind.Dataccess.Concrete.EntityFramework.Context
     public class NorthwindContext : DbContext
     {
         public DbSet<Product> Products { get; set; }
-        
+        public DbSet<Category> Categories { get; set; }
+
     }
 }
